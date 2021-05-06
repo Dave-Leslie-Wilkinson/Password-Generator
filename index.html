@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta name="description" content="Easy to Use Strong Password Generator.">
+    <link rel="canonical" href="https://passwordgenerator.joysofdata.com/" />
+    <meta name="robots" content="index, follow">
+    <meta property="og:type" content="Password Generator." />
+    <meta property="og:title" content="Joys Strong Password Generator." />
+    <meta property="og:description" content="Easy to Use Strong Password Generator." />
+    <meta property="og:image" content="https://joysofdata.com/wp-content/uploads/2021/05/2021-05-02-17_12_14-Password-Generator-Profile-1-Microsoft​-Edge.png" />
+    <meta property="og:url" content="https://passwordgenerator.joysofdata.com/" />
+    <meta property="og:site_name" content="Joys Strong Password Generator." />
+        
+    <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js" defer></script>
+        <title>Joys Strong Password Generator.</title>
+    </head>
+<body>
+  <div class="container">
+    <h1 class="title">Password Generator</h1>
+    <h3 class="password-display" id="passwordDisplay">password</h3>
+    <form id="passwordGeneratorForm" class="form">
+      <label for="characterAmountNumber">Number Of Characters</label>
+      <div class="character-amount-container">
+        <input type="range" min="1" max="50" value="10" id="characterAmountRange">
+        <input class="number-input" type="number" min="1" max="50" value="10" id="characterAmountNumber">
+      </div>
+
+      <label for="includeUppercase">Include Uppercase</label>
+      <input type="checkbox" id="includeUppercase">
+
+      <label for="includeNumbers">Include Numbers</label>
+      <input type="checkbox" id="includeNumbers">
+
+      <label for="includeSymbols">Include Symbols</label>
+      <input type="checkbox" id="includeSymbols">
+
+      <button type="submit" class="btn">Generate Password</button>
+    </form>
+  </div>
+</body>
+</html>
